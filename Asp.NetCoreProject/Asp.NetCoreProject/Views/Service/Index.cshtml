@@ -1,0 +1,46 @@
+﻿@using EntityLayer.Concrate
+@model List<Service>
+
+@{
+    ViewData["Title"] = "Index";
+  Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+
+
+<div class="row">
+    <div class="col">
+        <div class="card bg-default shadow">
+            <div class="card-header bg-transparent border-0">
+                <h3 class="text-white mb-0">Hizmet Tablosu</h3>
+            </div>
+            <div class="table-responsive">
+                <table class="table align-items-center table-dark table-flush">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col" class="sort" data-sort="name">#</th>
+                            <th scope="col" class="sort" data-sort="budget">Başlık</th>
+                            <th scope="col">Sil</th>
+                            <th scope="col" class="sort" data-sort="completion">Güncelle</th>
+                        </tr>
+                    </thead>
+                    <tbody class="list">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.ServiceID</td>
+                                <td class="budget">@item.Title</td>
+                                <td><a href="/Service/DeleteService/@item.ServiceID" class="btn btn-outline-warning">Sil</a></td>
+                                <td><a href="/Service/EditService/@item.ServiceID" class="btn btn-outline-success">Güncelle</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <br />
+                <a href="/Service/AddService/" class="btn btn-primary">Hizmet ekle</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+

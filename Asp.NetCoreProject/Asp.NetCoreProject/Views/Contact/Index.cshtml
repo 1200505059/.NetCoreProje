@@ -1,0 +1,91 @@
+﻿@using EntityLayer.Concrate;
+@model List<Message>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col">
+        <div class="card bg-default shadow">
+            <div class="table-responsive">
+                <table class="table align-items-center table-dark table-flush">
+                    <thead class="thead-dark">
+                        <div class="card-header border-0">
+                            <h3 class="mb-0">Mesajlar Tablosu</h3>
+                            <br />
+                            <a id="btn" class="btn btn-primary"> <i class="fa fa-check"></i> Okunmamış Mesajlar</a>
+                            <a  id="btn2" class="btn btn-primary">Okunmuş Mesajlar</a>
+                        </div>
+                        <tr>
+                            <th scope="col" class="sort" data-sort="name">İD</th>
+                            <th scope="col" class="sort" data-sort="budget">Gönderen</th>
+                            <th scope="col" class="sort" data-sort="budget">Mail</th>
+                            <th scope="col" class="sort" data-sort="status">Mesaj</th>
+                            <th scope="col">Sil</th>
+                            <th scope="col" class="sort" data-sort="completion">Okunma İşlemleri</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="table" class="list">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.MessageID</td>
+                                <td class="budget">@item.Name</td>
+
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <span class="completion mr-2">@item.Content </span>
+                                       
+                                    </div>
+                                </td>
+                                <td class="budget">@item.Mail</td>
+                                <td><a href="/Contact/DeleteMessage/@item.MessageID" class="btn btn-warning">Sil</a></td>
+                                <td><a href="/Contact/OkeyMesagge/@item.MessageID" class="btn btn-primary"> Okundu</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                    <tbody  style="display:none" id="table2" class="list">
+                        @foreach (var item in ViewBag.messgaes2)
+                        {
+                            <tr>
+                                <td>@item.MessageID</td>
+                                <td class="budget">@item.Name</td>
+
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <span class="completion mr-2">@item.Content </span>
+                                       
+                                    </div>
+                                </td>
+                                <td class="budget">@item.Mail</td>
+
+                                <td><a href="/Contact/DeleteMessage/@item.MessageID" class="btn btn-warning">Sil</a></td>
+                                <td><a href="/Contact/NoMesagge/@item.MessageID" class="btn btn-primary"> Okunmadı</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <br />
+                
+                <br />
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var btn2 = document.getElementById("btn2");
+    btn2.addEventListener("click", function () {
+        document.getElementById("table").style.display = "none";
+        document.getElementById("table2").style.display = "table-row-group";
+    });
+
+    var btn = document.getElementById("btn");
+    btn.addEventListener("click", function () {
+        document.getElementById("table2").style.display = "none";
+        document.getElementById("table").style.display = "table-row-group";
+    });
+</script>

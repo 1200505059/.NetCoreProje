@@ -1,0 +1,56 @@
+﻿@using EntityLayer.Concrate;
+@* SendMessage Default  *@
+
+@model Message
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"   />
+
+    <div class="col-md-12" data-aos="zoom-in" data-aos-delay="100">
+        <div class="bg-light my-2 p-3 pt-2">
+            <form  id="myForm" action="/Default/SendMessage/" method="post">
+                <div class="form-group my-2">
+                    <label for="name" class="form-label fw-bolder">Ad ve Soyadınız</label>
+                    <input  class="form-control" type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group my-2">
+                    <label for="email" class="form-label fw-bolder">Mail Adresiniz</label>
+                    <input class="form-control" type="email" id="email" name="Mail" required>
+                </div>
+                <div class="form-group my-2">
+                    <label for="message" class="form-label fw-bolder">Mesajınız</label>
+                    <textarea class="form-control" style="resize: none;" id="message" name="Content" rows="4" required></textarea>
+                </div>
+                <button class="btn btn-primary mt-2" type="button" onclick="submitForm()">Gönder</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+
+    <script>
+        function submitForm() {
+            var formData = $("#myForm").serialize();
+
+            $.ajax({
+                type: "POST",
+                url: "/Default/MesajGonder",
+                data: formData,
+                success: function (response) {
+                    if (response == 200) {
+                        console.log("Başarılı");
+                        alertify.success("Mesaj Gönderildi")
+                        $("#myForm :input" ).val("");
+                        $("#myForm :textarea" ).val("");
+                    } else {
+                        console.log("Başarısız");
+                    }
+                },
+                error: function () {
+                    console.log("İstek gönderilirken bir hata oluştu.");
+                alertify.error("Mesaj Gönderilemedi.")
+                }
+            });
+        }
+    </script>
+

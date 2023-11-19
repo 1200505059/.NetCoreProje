@@ -1,0 +1,54 @@
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.json
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.dev.json
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\refint\DataAccessLayer.dll
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\cakma\OneDrive\Masaüstü\.NET CORE 5\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.json
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.dev.json
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\refint\DataAccessLayer.dll
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\cakma\OneDrive\Masaüstü\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.json
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.dev.json
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\refint\DataAccessLayer.dll
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\pc\Desktop\Asp.NetCoreProject\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll

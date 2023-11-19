@@ -1,0 +1,45 @@
+﻿@using EntityLayer.Concrate
+@model List<Experience>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col">
+        <div class="card bg-default shadow">
+            <div class="card-header bg-transparent border-0">
+                <h3 class="text-white mb-0">DENEYİMLER TABLOSU</h3>
+            </div>
+            <div class="table-responsive">
+                <table class="table align-items-center table-dark table-flush">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col" class="sort" data-sort="name">İD</th>
+                            <th scope="col" class="sort" data-sort="budget">Başlık</th>
+                            <th scope="col" class="sort" data-sort="status">Tarih</th>
+                             <th scope="col">Sil</th>
+                            <th scope="col" class="sort" data-sort="completion">Güncelle</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="list">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.ExperienceID</td>
+                                <td class="budget">@item.ExperienceName</td>
+                                <td> <span class="completion mr-2">@item.Date</span></td> 
+                                <td><a href="/Experience/DeleteExperience/@item.ExperienceID" class="btn btn-warning">Sil</a></td>
+                                <td><a href="/Experience/EditExperience/@item.ExperienceID" class="btn btn-success">Güncelle</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <a href="/Experience/AddExperience/" class="btn btn-primary">Deneyim ekle</a>
+
+            </div>
+        </div>
+    </div>
+</div>

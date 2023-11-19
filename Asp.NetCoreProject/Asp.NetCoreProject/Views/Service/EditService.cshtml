@@ -1,0 +1,22 @@
+﻿@model EntityLayer.Concrate.Service
+@{
+    ViewData["Title"] = "EditService";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<h1 style="color:white;">Hizmet Düzenleme Paneli</h1>
+@using (Html.BeginForm("EditService", "Service", FormMethod.Post))
+{
+    @Html.HiddenFor(x=> x.ServiceID)
+    <br />
+    <br />
+    <label>Hizmet Başlığı </label>
+    @Html.TextBoxFor(x=>x.Title,new{@class="form-control"})
+    <br />
+    <label>Resim </label>
+    @Html.TextBoxFor(x=>x.ImageUrl,new{@class="form-control"})
+    <br />
+    <button class="btn btn-outline-primary">Güncelle</button>
+    <br />
+
+}

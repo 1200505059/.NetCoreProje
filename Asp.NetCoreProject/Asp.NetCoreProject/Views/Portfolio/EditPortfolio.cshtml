@@ -1,0 +1,37 @@
+﻿@model EntityLayer.Concrate.Portfolio
+@{
+    ViewData["Title"] = "EditPortfolio";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<h1 style="color:white;">Proje Ekleme Paneli</h1>
+@using (Html.BeginForm("EditPortfolio", "Portfolio", FormMethod.Post))
+{
+    @Html.HiddenFor(x=>x.PortfolioID)
+    <br />
+    <br />
+    <br />
+    <label>Proje Başlığı</label>
+    @Html.TextBoxFor(x=>x.Name,new{@class="form-control"})
+    @Html.ValidationMessageFor(x=>x.Name)
+    <br />
+    <label>Resim</label>
+    @Html.TextBoxFor(x=>x.ImageUrl,new{@class="form-control"})
+    @Html.ValidationMessageFor(x=>x.ImageUrl)
+    <br />
+    <label>Tarih  </label>
+    @Html.TextBoxFor(x=>x.Time,new{@class="form-control"})
+    @Html.ValidationMessageFor(x=>x.Time)
+    <br />
+    <label>Proje Linki </label>
+    @Html.TextAreaFor(x=>x.ProjectUrl,new{@class="form-control"})
+    @Html.ValidationMessageFor(x=>x.ProjectUrl)
+    <br />
+    <label>Durum(True veya False) </label>
+    @Html.TextAreaFor(x=>x.Status,new{@class="form-control"})
+    @Html.ValidationMessageFor(x=>x.Status)
+    <br />
+    <button class="btn btn-primary">Kaydet</button>
+    <br />
+
+}
